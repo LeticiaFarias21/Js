@@ -1,0 +1,147 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color:rgba(204, 74, 74, 0.644);
+    padding: 20px 0;
+    
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+main {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+}
+
+.sobre {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 15px 40px;
+    padding: 30px;
+
+}
+
+.sobre:hover {
+    border-color: pink;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.sobre h2:hover {
+    font-size: 40px;
+}
+.sobre p {
+    text-align:  center;
+    color: black;
+    margin: 20px;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+em strong {
+    color: rgb(146, 109, 115);
+}
+.sobre h2 {
+    text-align: center;
+}
+
+.form-group {
+    display:flex;
+    
+}
+.beneficios{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 15px  50px 40px;
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+}
+
+.beneficios:hover {
+    border-color: pink;
+}
+
+#beneficios-titulo {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#beneficios-titulo:hover{
+    font-size: 40px;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 20px;
+    margin-top:40px;
+}
+
+.beneficios ul {
+    min-width: 400px;
+    
+}
+
+.imgBeneficios {
+    height: 400px;
+    margin-top: 40px;
+    align-content: center;
+
+}
+
+footer {
+    background: url(img/bg.jpg);
+    text-align: center;
+    padding: 40px 0px;
+
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
