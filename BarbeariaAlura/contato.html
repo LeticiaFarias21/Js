@@ -7,7 +7,6 @@
     <title>Contato</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="contato.css">
-    <link rel="stylesheet" href="produto.css">
 
 </head>
 <body>
@@ -23,9 +22,42 @@
             </nav>
         </div>
     </header>
-    <footer> 
-        <img src="img\logo-branco.png">
-        <p class="copyright">&copy; Copyright Barbearia Letícia Farais - 2023</p>
-    </footer>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome">
+            
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            
+            <label for="telefone">telefone</label>
+            <input type="text" id="telefone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p id="contatopreferencia-texto">Como prefere o nosso contato?</p> 
+    
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                
+                <label for="radio-telefone">telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                
+                <label for="radio-whatsApp">whatsApp</label>
+                <input type="radio" name="contato" value="whatsApp" id="radio-whatsApp">
+    
+                <input type="submit" value="send" id="radio-email">
+            </div>
+
+            <label><input type="checkbox"> de recerber nossas novidades por email</label>
+            
+        </form>
+        <footer> 
+            <img src="img\logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Letícia Farais - 2023</p>
+        </footer>
+    </main>
 </body>
 </html>
