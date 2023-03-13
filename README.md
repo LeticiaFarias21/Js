@@ -2,7 +2,7 @@
 Just going around and trying to execute my ideias
 <p> Check:
   <p>
-    <a href="Tollist/index.html">&bull;Todo list</a>
+    <a href="Tolist/index.html">&bull;Todo list</a>
     <a href="Youtube/index.html">&bull;Youtube</a>
   </p>
 </p>
