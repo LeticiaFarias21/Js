@@ -1,6 +1,8 @@
 # Wb dev, summer vacation random ideias
 Just going around and trying to execute my ideias
 <p> Check:
-<a href="Tollist/index.html">&bull;Todo list</a>
-<a href="Youtube/index.html">&bull;Youtube</a>
+  <p>
+    <a href="Tollist/index.html">&bull;Todo list</a>
+    <a href="Youtube/index.html">&bull;Youtube</a>
+  </p>
 </p>
