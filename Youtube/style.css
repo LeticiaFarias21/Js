@@ -342,3 +342,64 @@ nav{
     padding-top: 10px;
     background: transparent;
 }
+
+.old-comment{
+    display: flex;
+    align-items:center;
+    margin: 20px 0px;
+}
+
+.old-comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.old-comment h3{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.old-comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    margin-left: 5px;
+}
+.old-comment .comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.old-comment .comment-action img{
+    border-radius: 0;
+    width: 15px;
+    margin-right: 12px;
+}
+.old-comment .comment-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+.old-comment .comment-action a{
+    color: blue;
+}
+
+@media (max-width: 900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .video-description{
+        padding-left: 0;
+    }
+    .play-video .play-video-info a{
+        margin-left: 0px;
+        margin-right: 15px;
+        margin-top: 15px;
+    } 
+}
